@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Addresstigator.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "person1@gmail.com"
+    }
+  }
+}

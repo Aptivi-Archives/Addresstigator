@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0;net6.0;net48</TargetFrameworks>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <Authors>EoflaOE</Authors>
+    <Company>EoflaOE</Company>
+    <Description>Get address information from Mozilla ISP Database</Description>
+    <Copyright>Copyright (c) 2021 - 2022 EoflaOE and its companies.</Copyright>
+    <PackageProjectUrl>https://github.com/EoflaOE/Addresstigator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EoflaOE/Addresstigator</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>address;mail;isp;c#;vb.net;email;network</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
