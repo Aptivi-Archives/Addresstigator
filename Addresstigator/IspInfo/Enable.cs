@@ -38,13 +38,13 @@ namespace Addresstigator
         /// The instruction
         /// </summary>
         [XmlElement(ElementName = "instruction")]
-        public string Instruction { get; }
+        public string Instruction { get; set; }
 
         /// <summary>
         /// The URL to visit to enable login
         /// </summary>
         [XmlAttribute(AttributeName = "visiturl")]
-        public string Visiturl { get; }
+        public string Visiturl { get; set; }
     }
 
 }

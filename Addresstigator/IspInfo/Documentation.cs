@@ -38,19 +38,13 @@ namespace Addresstigator
 		/// Documentation description
 		/// </summary>
 		[XmlElement(ElementName = "descr")]
-		public string Description { get; }
-
-		/// <summary>
-		/// Documentation language
-		/// </summary>
-		[XmlElement(ElementName = "descr"), XmlAttribute(AttributeName = "lang")]
-		public string Language { get; }
+		public string Description { get; set; }
 
 		/// <summary>
 		/// Documentation URL
 		/// </summary>
 		[XmlAttribute(AttributeName = "url")]
-		public string Url { get; }
+		public string Url { get; set; }
 	}
 
 }

@@ -38,25 +38,25 @@ namespace Addresstigator
 		/// The authentication issuer
 		/// </summary>
 		[XmlElement(ElementName = "issuer")]
-		public string Issuer { get; }
+		public string Issuer { get; set; }
 
 		/// <summary>
 		/// The authentication scope
 		/// </summary>
 		[XmlElement(ElementName = "scope")]
-		public string Scope { get; }
+		public string Scope { get; set; }
 
 		/// <summary>
 		/// The authentication URL
 		/// </summary>
 		[XmlElement(ElementName = "authURL")]
-		public string AuthURL { get; }
+		public string AuthURL { get; set; }
 
 		/// <summary>
 		/// The OAuth2 token URL
 		/// </summary>
 		[XmlElement(ElementName = "tokenURL")]
-		public string TokenURL { get; }
+		public string TokenURL { get; set; }
 	}
 
 }

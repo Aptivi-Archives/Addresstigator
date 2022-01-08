@@ -39,37 +39,37 @@ namespace Addresstigator
 		/// The hostname for the SMTP server
 		/// </summary>
 		[XmlElement(ElementName = "hostname")]
-		public string Hostname { get; }
+		public string Hostname { get; set; }
 
 		/// <summary>
 		/// The port for the SMTP server. Usually 465.
 		/// </summary>
 		[XmlElement(ElementName = "port")]
-		public int Port { get; }
+		public int Port { get; set; }
 
 		/// <summary>
 		/// The socket type. Usually SSL or STARTTLS
 		/// </summary>
 		[XmlElement(ElementName = "socketType")]
-		public string SocketType { get; }
+		public string SocketType { get; set; }
 
 		/// <summary>
 		/// The username indicator. Usually, it's set to %EMAILADDRESS%, which means the E-mail address placeholder.
 		/// </summary>
 		[XmlElement(ElementName = "username")]
-		public string Username { get; }
+		public string Username { get; set; }
 
 		/// <summary>
 		/// The authentication methods
 		/// </summary>
 		[XmlElement(ElementName = "authentication")]
-		public List<string> AuthenticationMethods { get; }
+		public List<string> AuthenticationMethods { get; set; }
 
 		/// <summary>
 		/// The server type. Usually "smtp"
 		/// </summary>
 		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; }
+		public string Type { get; set; }
 	}
 
 }

@@ -67,8 +67,8 @@ namespace Addresstigator
             // Get the client config
             ClientConfig clientConfig;
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(ClientConfig), new XmlRootAttribute("clientConfig") { IsNullable = false });
-            MemoryStream ms = new MemoryStream(Encoding.Default.GetBytes(xmlContent));
-            clientConfig = (ClientConfig) xmlSerializer.Deserialize(ms);
+            StringReader sr = new StringReader(xmlContent);
+            clientConfig = (ClientConfig) xmlSerializer.Deserialize(sr);
             return clientConfig;
         }
     }

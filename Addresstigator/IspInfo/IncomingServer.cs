@@ -39,43 +39,43 @@ namespace Addresstigator
 		/// The hostname for the server
 		/// </summary>
 		[XmlElement(ElementName = "hostname")]
-		public string Hostname { get; }
+		public string Hostname { get; set; }
 
 		/// <summary>
 		/// The port for the server. Usually 995 or 993, depending on the server.
 		/// </summary>
 		[XmlElement(ElementName = "port")]
-		public int Port { get; }
+		public int Port { get; set; }
 
 		/// <summary>
 		/// The socket type. Usually SSL or STARTTLS
 		/// </summary>
 		[XmlElement(ElementName = "socketType")]
-		public string SocketType { get; }
+		public string SocketType { get; set; }
 
 		/// <summary>
 		/// The username indicator. Usually, it's set to %EMAILADDRESS%, which means the E-mail address placeholder.
 		/// </summary>
 		[XmlElement(ElementName = "username")]
-		public string Username { get; }
+		public string Username { get; set; }
 
 		/// <summary>
 		/// The authentication methods
 		/// </summary>
 		[XmlElement(ElementName = "authentication")]
-		public List<string> Authentication { get; }
+		public List<string> Authentication { get; set; }
 
 		/// <summary>
 		/// The server type. Usually "imap" or "pop3"
 		/// </summary>
 		[XmlAttribute(AttributeName = "type")]
-		public string Type { get; }
+		public string Type { get; set; }
 
 		/// <summary>
 		/// POP3 server properties
 		/// </summary>
 		[XmlElement(ElementName = "pop3")]
-		public Pop3 Pop3 { get; }
+		public Pop3 Pop3 { get; set; }
 	}
 
 }

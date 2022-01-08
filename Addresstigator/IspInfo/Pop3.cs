@@ -38,7 +38,7 @@ namespace Addresstigator
         /// Whether or not to leave the messages on the server
         /// </summary>
         [XmlElement(ElementName = "leaveMessagesOnServer")]
-        public bool LeaveMessagesOnServer { get; }
+        public bool LeaveMessagesOnServer { get; set; }
     }
 
 }

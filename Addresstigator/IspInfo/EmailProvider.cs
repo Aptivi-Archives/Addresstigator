@@ -39,43 +39,43 @@ namespace Addresstigator
 		/// The list of domains
 		/// </summary>
 		[XmlElement(ElementName = "domain")]
-		public List<string> Domain { get; }
+		public List<string> Domain { get; set; }
 
 		/// <summary>
 		/// The full name for the ISP mail server
 		/// </summary>
 		[XmlElement(ElementName = "displayName")]
-		public string DisplayName { get; }
+		public string DisplayName { get; set; }
 
 		/// <summary>
 		/// The short name for the ISP mail server
 		/// </summary>
 		[XmlElement(ElementName = "displayShortName")]
-		public string DisplayShortName { get; }
+		public string DisplayShortName { get; set; }
 
 		/// <summary>
 		/// List of incoming servers
 		/// </summary>
 		[XmlElement(ElementName = "incomingServer")]
-		public List<IncomingServer> IncomingServer { get; }
+		public List<IncomingServer> IncomingServer { get; set; }
 
 		/// <summary>
 		/// Outgoing server
 		/// </summary>
 		[XmlElement(ElementName = "outgoingServer")]
-		public OutgoingServer OutgoingServer { get; }
+		public OutgoingServer OutgoingServer { get; set; }
 
 		/// <summary>
 		/// Documentation information
 		/// </summary>
 		[XmlElement(ElementName = "documentation")]
-		public List<Documentation> Documentation { get; }
+		public List<Documentation> Documentation { get; set; }
 
 		/// <summary>
 		/// The dominating domain
 		/// </summary>
 		[XmlAttribute(AttributeName = "id")]
-		public string DominatingDomain { get; }
+		public string DominatingDomain { get; set; }
 	}
 
 }

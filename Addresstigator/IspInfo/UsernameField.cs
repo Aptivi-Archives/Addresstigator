@@ -38,7 +38,7 @@ namespace Addresstigator
         /// The username field identification from the source code of the URL
         /// </summary>
         [XmlAttribute(AttributeName = "id")]
-        public string Id { get; }
+        public string Id { get; set; }
     }
 
 }

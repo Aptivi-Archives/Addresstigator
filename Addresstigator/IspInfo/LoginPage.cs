@@ -38,7 +38,7 @@ namespace Addresstigator
         /// The webmail login page link
         /// </summary>
         [XmlAttribute(AttributeName = "url")]
-        public string Url { get; }
+        public string Url { get; set; }
     }
 
 }

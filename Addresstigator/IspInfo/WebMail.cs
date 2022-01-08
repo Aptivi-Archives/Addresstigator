@@ -38,13 +38,13 @@ namespace Addresstigator
         /// The login page instance
         /// </summary>
         [XmlElement(ElementName = "loginPage")]
-        public LoginPage LoginPage { get; }
+        public LoginPage LoginPage { get; set; }
 
         /// <summary>
         /// The webmail login page form information
         /// </summary>
         [XmlElement(ElementName = "loginPageInfo")]
-        public LoginPageInfo LoginPageInfo { get; }
+        public LoginPageInfo LoginPageInfo { get; set; }
     }
 
 }

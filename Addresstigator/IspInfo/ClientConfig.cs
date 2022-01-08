@@ -39,25 +39,25 @@ namespace Addresstigator
 		/// The E-mail provider (ISP) information
 		/// </summary>
 		[XmlElement(ElementName = "emailProvider")]
-		public EmailProvider EmailProvider { get; }
+		public EmailProvider EmailProvider { get; set; }
 
 		/// <summary>
 		/// The OAuth2 information for the ISP's mail server
 		/// </summary>
 		[XmlElement(ElementName = "oAuth2")]
-		public OAuth2 OAuth2 { get; }
+		public OAuth2 OAuth2 { get; set; }
 
 		/// <summary>
 		/// The log-in server enablement instructions
 		/// </summary>
 		[XmlElement(ElementName = "enable")]
-		public Enable Enable { get; }
+		public Enable Enable { get; set; }
 
 		/// <summary>
 		/// The webmail configuration
 		/// </summary>
 		[XmlElement(ElementName = "webMail")]
-		public WebMail WebMail { get; }
+		public WebMail WebMail { get; set; }
 	}
 
 }
