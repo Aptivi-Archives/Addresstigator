@@ -1,0 +1,87 @@
+{
+  "api/Addresstigator.ClientConfig.html": {
+    "href": "api/Addresstigator.ClientConfig.html",
+    "title": "Class ClientConfig | Addresstigator API - Eofla Internals",
+    "keywords": "Class ClientConfig Client configuration parameters Inheritance System.Object ClientConfig Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class ClientConfig : object Properties | Improve this Doc View Source EmailProvider The E-mail provider (ISP) information Declaration public EmailProvider EmailProvider { get; set; } Property Value Type Description EmailProvider | Improve this Doc View Source Enable The log-in server enablement instructions Declaration public Enable Enable { get; set; } Property Value Type Description Enable | Improve this Doc View Source OAuth2 The OAuth2 information for the ISP's mail server Declaration public OAuth2 OAuth2 { get; set; } Property Value Type Description OAuth2 | Improve this Doc View Source WebMail The webmail configuration Declaration public WebMail WebMail { get; set; } Property Value Type Description WebMail"
+  },
+  "api/Addresstigator.Documentation.html": {
+    "href": "api/Addresstigator.Documentation.html",
+    "title": "Class Documentation | Addresstigator API - Eofla Internals",
+    "keywords": "Class Documentation Documentation information Inheritance System.Object Documentation Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class Documentation : object Properties | Improve this Doc View Source Description Documentation description Declaration public string Description { get; set; } Property Value Type Description System.String | Improve this Doc View Source Url Documentation URL Declaration public string Url { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.EmailProvider.html": {
+    "href": "api/Addresstigator.EmailProvider.html",
+    "title": "Class EmailProvider | Addresstigator API - Eofla Internals",
+    "keywords": "Class EmailProvider The E-mail provider (ISP) information Inheritance System.Object EmailProvider Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class EmailProvider : object Properties | Improve this Doc View Source DisplayName The full name for the ISP mail server Declaration public string DisplayName { get; set; } Property Value Type Description System.String | Improve this Doc View Source DisplayShortName The short name for the ISP mail server Declaration public string DisplayShortName { get; set; } Property Value Type Description System.String | Improve this Doc View Source Documentation Documentation information Declaration public List<Documentation> Documentation { get; set; } Property Value Type Description List < Documentation > | Improve this Doc View Source Domain The list of domains Declaration public List<string> Domain { get; set; } Property Value Type Description List < System.String > | Improve this Doc View Source DominatingDomain The dominating domain Declaration public string DominatingDomain { get; set; } Property Value Type Description System.String | Improve this Doc View Source IncomingServer List of incoming servers Declaration public List<IncomingServer> IncomingServer { get; set; } Property Value Type Description List < IncomingServer > | Improve this Doc View Source OutgoingServer Outgoing server Declaration public OutgoingServer OutgoingServer { get; set; } Property Value Type Description OutgoingServer"
+  },
+  "api/Addresstigator.Enable.html": {
+    "href": "api/Addresstigator.Enable.html",
+    "title": "Class Enable | Addresstigator API - Eofla Internals",
+    "keywords": "Class Enable The log-in server enablement instructions Inheritance System.Object Enable Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class Enable : object Properties | Improve this Doc View Source Instruction The instruction Declaration public string Instruction { get; set; } Property Value Type Description System.String | Improve this Doc View Source Visiturl The URL to visit to enable login Declaration public string Visiturl { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.html": {
+    "href": "api/Addresstigator.html",
+    "title": "Namespace Addresstigator | Addresstigator API - Eofla Internals",
+    "keywords": "Namespace Addresstigator Classes ClientConfig Client configuration parameters Documentation Documentation information EmailProvider The E-mail provider (ISP) information Enable The log-in server enablement instructions IncomingServer The incoming server information (POP3 or IMAP) LoginButton The log-in button information LoginPage The webmail login page LoginPageInfo The login page information for the ISP's webmail OAuth2 The OAuth2 information for the ISP's mail server OutgoingServer The outgoing server information (SMTP) PasswordField The password field information Pop3 POP3 server properties Tools Internet Service Provider server information UsernameField The username field for the webmail WebMail The webmail configuration"
+  },
+  "api/Addresstigator.IncomingServer.html": {
+    "href": "api/Addresstigator.IncomingServer.html",
+    "title": "Class IncomingServer | Addresstigator API - Eofla Internals",
+    "keywords": "Class IncomingServer The incoming server information (POP3 or IMAP) Inheritance System.Object IncomingServer Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class IncomingServer : object Properties | Improve this Doc View Source Authentication The authentication methods Declaration public List<string> Authentication { get; set; } Property Value Type Description List < System.String > | Improve this Doc View Source Hostname The hostname for the server Declaration public string Hostname { get; set; } Property Value Type Description System.String | Improve this Doc View Source Pop3 POP3 server properties Declaration public Pop3 Pop3 { get; set; } Property Value Type Description Pop3 | Improve this Doc View Source Port The port for the server. Usually 995 or 993, depending on the server. Declaration public int Port { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source SocketType The socket type. Usually SSL or STARTTLS Declaration public string SocketType { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The server type. Usually \"imap\" or \"pop3\" Declaration public string Type { get; set; } Property Value Type Description System.String | Improve this Doc View Source Username The username indicator. Usually, it's set to %EMAILADDRESS%, which means the E-mail address placeholder. Declaration public string Username { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.LoginButton.html": {
+    "href": "api/Addresstigator.LoginButton.html",
+    "title": "Class LoginButton | Addresstigator API - Eofla Internals",
+    "keywords": "Class LoginButton The log-in button information Inheritance System.Object LoginButton Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class LoginButton : object Properties | Improve this Doc View Source Id The log-in button identification from the source code of the URL Declaration public string Id { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.LoginPage.html": {
+    "href": "api/Addresstigator.LoginPage.html",
+    "title": "Class LoginPage | Addresstigator API - Eofla Internals",
+    "keywords": "Class LoginPage The webmail login page Inheritance System.Object LoginPage Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class LoginPage : object Properties | Improve this Doc View Source Url The webmail login page link Declaration public string Url { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.LoginPageInfo.html": {
+    "href": "api/Addresstigator.LoginPageInfo.html",
+    "title": "Class LoginPageInfo | Addresstigator API - Eofla Internals",
+    "keywords": "Class LoginPageInfo The login page information for the ISP's webmail Inheritance System.Object LoginPageInfo Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class LoginPageInfo : object Properties | Improve this Doc View Source LoginButton The log-in button information Declaration public LoginButton LoginButton { get; set; } Property Value Type Description LoginButton | Improve this Doc View Source PasswordField The password field information Declaration public PasswordField PasswordField { get; set; } Property Value Type Description PasswordField | Improve this Doc View Source Url The webmail URL Declaration public string Url { get; set; } Property Value Type Description System.String | Improve this Doc View Source Username The username indicator. Usually, it's set to %EMAILADDRESS%, which means the E-mail address placeholder. Declaration public string Username { get; set; } Property Value Type Description System.String | Improve this Doc View Source UsernameField The username field information Declaration public UsernameField UsernameField { get; set; } Property Value Type Description UsernameField"
+  },
+  "api/Addresstigator.OAuth2.html": {
+    "href": "api/Addresstigator.OAuth2.html",
+    "title": "Class OAuth2 | Addresstigator API - Eofla Internals",
+    "keywords": "Class OAuth2 The OAuth2 information for the ISP's mail server Inheritance System.Object OAuth2 Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class OAuth2 : object Properties | Improve this Doc View Source AuthURL The authentication URL Declaration public string AuthURL { get; set; } Property Value Type Description System.String | Improve this Doc View Source Issuer The authentication issuer Declaration public string Issuer { get; set; } Property Value Type Description System.String | Improve this Doc View Source Scope The authentication scope Declaration public string Scope { get; set; } Property Value Type Description System.String | Improve this Doc View Source TokenURL The OAuth2 token URL Declaration public string TokenURL { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.OutgoingServer.html": {
+    "href": "api/Addresstigator.OutgoingServer.html",
+    "title": "Class OutgoingServer | Addresstigator API - Eofla Internals",
+    "keywords": "Class OutgoingServer The outgoing server information (SMTP) Inheritance System.Object OutgoingServer Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class OutgoingServer : object Properties | Improve this Doc View Source AuthenticationMethods The authentication methods Declaration public List<string> AuthenticationMethods { get; set; } Property Value Type Description List < System.String > | Improve this Doc View Source Hostname The hostname for the SMTP server Declaration public string Hostname { get; set; } Property Value Type Description System.String | Improve this Doc View Source Port The port for the SMTP server. Usually 465. Declaration public int Port { get; set; } Property Value Type Description System.Int32 | Improve this Doc View Source SocketType The socket type. Usually SSL or STARTTLS Declaration public string SocketType { get; set; } Property Value Type Description System.String | Improve this Doc View Source Type The server type. Usually \"smtp\" Declaration public string Type { get; set; } Property Value Type Description System.String | Improve this Doc View Source Username The username indicator. Usually, it's set to %EMAILADDRESS%, which means the E-mail address placeholder. Declaration public string Username { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.PasswordField.html": {
+    "href": "api/Addresstigator.PasswordField.html",
+    "title": "Class PasswordField | Addresstigator API - Eofla Internals",
+    "keywords": "Class PasswordField The password field information Inheritance System.Object PasswordField Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class PasswordField : object Properties | Improve this Doc View Source Id The password field identification from the source code of the URL Declaration public string Id { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.Pop3.html": {
+    "href": "api/Addresstigator.Pop3.html",
+    "title": "Class Pop3 | Addresstigator API - Eofla Internals",
+    "keywords": "Class Pop3 POP3 server properties Inheritance System.Object Pop3 Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class Pop3 : object Properties | Improve this Doc View Source LeaveMessagesOnServer Whether or not to leave the messages on the server Declaration public bool LeaveMessagesOnServer { get; set; } Property Value Type Description System.Boolean"
+  },
+  "api/Addresstigator.Tools.html": {
+    "href": "api/Addresstigator.Tools.html",
+    "title": "Class Tools | Addresstigator API - Eofla Internals",
+    "keywords": "Class Tools Internet Service Provider server information Inheritance System.Object Tools Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public static class Tools : object Methods | Improve this Doc View Source GetIspConfig(String, Boolean) Gets the ISP configuration for the specified mail address Declaration public static ClientConfig GetIspConfig(string address, bool staging = false) Parameters Type Name Description System.String address The mail address to parse. Must include the ISP hostname. System.Boolean staging Returns Type Description ClientConfig The ISP client config for specified mail address"
+  },
+  "api/Addresstigator.UsernameField.html": {
+    "href": "api/Addresstigator.UsernameField.html",
+    "title": "Class UsernameField | Addresstigator API - Eofla Internals",
+    "keywords": "Class UsernameField The username field for the webmail Inheritance System.Object UsernameField Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class UsernameField : object Properties | Improve this Doc View Source Id The username field identification from the source code of the URL Declaration public string Id { get; set; } Property Value Type Description System.String"
+  },
+  "api/Addresstigator.WebMail.html": {
+    "href": "api/Addresstigator.WebMail.html",
+    "title": "Class WebMail | Addresstigator API - Eofla Internals",
+    "keywords": "Class WebMail The webmail configuration Inheritance System.Object WebMail Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public class WebMail : object Properties | Improve this Doc View Source LoginPage The login page instance Declaration public LoginPage LoginPage { get; set; } Property Value Type Description LoginPage | Improve this Doc View Source LoginPageInfo The webmail login page form information Declaration public LoginPageInfo LoginPageInfo { get; set; } Property Value Type Description LoginPageInfo"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "What is Addresstigator? | Addresstigator API - Eofla Internals",
+    "keywords": "What is Addresstigator? Addresstigator lets you automatically parse the ISP server information from the e-mail address. It's a frontend to the Mozilla ISP Database. What is this web page? This webpage is an API documentation for mod developers to be used as reference. It constantly gets updated as we push the updates to the main and servicing versions of this project. If you still intend to use a documentation specific to your preferred version of Addresstigator, you may refer to the releases page of the project and download the attached <version>-doc.rar file. To get started using the documentation, select API Documentation from the top menu and select a namespace to get a clear overview of the API. Feedback If you wish to leave feedback to us about this API reference website, use the issue tracker of the project. If you wish to contribute to the documentation of the API, go to the project source code and make your improvements there on a draft Pull Request ; we don't support override files that are made by clicking on Improve this doc . Any meaningful contributions are welcome. Copyright (c) 2022 EoflaOE and its companies. All rights reserved."
+  }
+}
