@@ -41,7 +41,7 @@ namespace Addresstigator
         /// Gets the ISP configuration for the specified mail address
         /// </summary>
         /// <param name="address">The mail address to parse. Must include the ISP hostname.</param>
-        /// <param name="beta">Whether to use the Thunderbird staging server</param>
+        /// <param name="staging">Whether to use the Thunderbird staging server</param>
         /// <returns>The ISP client config for specified mail address</returns>
         public static ClientConfig GetIspConfig(string address, bool staging = false)
         {

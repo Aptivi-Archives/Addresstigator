@@ -3,7 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>OfficialAppIcon-Addresstigator.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="OfficialAppIcon-Addresstigator.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Addresstigator\Addresstigator.csproj" />
