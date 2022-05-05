@@ -67,7 +67,7 @@
   "api/Addresstigator.Tools.html": {
     "href": "api/Addresstigator.Tools.html",
     "title": "Class Tools | Addresstigator API - Eofla Internals",
-    "keywords": "Class Tools Internet Service Provider server information Inheritance System.Object Tools Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public static class Tools : object Methods | Improve this Doc View Source GetIspConfig(String, Boolean) Gets the ISP configuration for the specified mail address Declaration public static ClientConfig GetIspConfig(string address, bool staging = false) Parameters Type Name Description System.String address The mail address to parse. Must include the ISP hostname. System.Boolean staging Returns Type Description ClientConfig The ISP client config for specified mail address"
+    "keywords": "Class Tools Internet Service Provider server information Inheritance System.Object Tools Namespace : Addresstigator Assembly : Addresstigator.dll Syntax public static class Tools : object Methods | Improve this Doc View Source GetIspConfig(String, Boolean) Gets the ISP configuration for the specified mail address Declaration public static ClientConfig GetIspConfig(string address, bool staging = false) Parameters Type Name Description System.String address The mail address to parse. Must include the ISP hostname. System.Boolean staging Whether to use the Thunderbird staging server Returns Type Description ClientConfig The ISP client config for specified mail address"
   },
   "api/Addresstigator.UsernameField.html": {
     "href": "api/Addresstigator.UsernameField.html",
