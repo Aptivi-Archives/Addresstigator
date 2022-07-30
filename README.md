@@ -11,7 +11,7 @@ Addresstigator is a fine .NET library which is a backend for Mozilla ISP Databas
 ```
 MIT License
 
-Copyright (c) 2021 - 2022 EoflaOE and its companies
+Copyright (c) 2021 - 2022 Aptivi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
