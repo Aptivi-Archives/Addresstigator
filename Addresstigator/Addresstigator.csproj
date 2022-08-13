@@ -20,12 +20,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-Addresstigator-512.png</PackageIcon>
-    <ApplicationIcon>OfficialAppIcon-Addresstigator.ico</ApplicationIcon>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="OfficialAppIcon-Addresstigator.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="OfficialAppIcon-Addresstigator-512.png">
