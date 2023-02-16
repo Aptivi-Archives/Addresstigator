@@ -1,33 +1,67 @@
-## Addresstigator
 
-Addresstigator is a fine .NET library which is a backend for Mozilla ISP Database. It works on both versions 1.1 and 1.0.
+<div align = center>
 
-### Credits
+<br>
+<br>
+    
+<img
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Addresstigator@main/Addresstigator/OfficialAppIcon-Addresstigator-512.png'
+  width = 256
+  align = center
+/>
 
-**Mozilla:** for Mozilla ISP Database
+<br>
 
-### License
+# Addresstigator
+    
+*A frontend for Mozilla ISP Database.*
 
-```
-MIT License
+<br>
+<br>
 
-Copyright (c) 2021 - 2022 Aptivi
+[![Badge Main]][Main]   
+[![Badge Main Linux]][Main Linux]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+[![Badge Latest]][Latest]   
+[![Badge NuGet]][NuGet]
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+![Badge Size]   
+[![Badge Downloads]][Releases]
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+[![Button Manual]][Manual]   
+[![Button Libraries]][Libraries]
+
+</div>
+
+<br>
+    
+</div>
+
+
+<!----------------------------------------------------------------------------->
+
+[Releases]: https://github.com/Aptivi/Addresstigator/releases
+[Latest]: https://github.com/Aptivi/Addresstigator/releases/latest
+[NuGet]: https://www.nuget.org/packages/Addresstigator/
+
+[Main]: https://github.com/Aptivi/Addresstigator/actions/workflows/build-win.yml
+[Main Linux]: https://github.com/Aptivi/Addresstigator/actions/workflows/build-linux.yml
+
+[Libraries]: https://aptivi.gitbook.io/addresstigator-manual/project-dependencies
+[Manual]: https://aptivi.gitbook.io/addresstigator-manual/
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Downloads]: https://img.shields.io/github/downloads/Aptivi/Addresstigator/total?color=217346&label=Downloads&style=for-the-badge&logoColor=white&logo=DocuSign&labelColor=2d9d5f
+[Badge Latest]: https://img.shields.io/github/v/release/Aptivi/Addresstigator?color=212121&include_prereleases&label=github&style=for-the-badge&logoColor=white&logo=AzureArtifacts&labelColor=303030
+[Badge NuGet]: https://img.shields.io/nuget/vpre/Addresstigator?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
+[Badge Size]: https://img.shields.io/github/repo-size/Aptivi/Addresstigator?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
+
+[Badge Main]: https://github.com/Aptivi/Addresstigator/actions/workflows/build-win.yml/badge.svg
+[Badge Main Linux]: https://github.com/Aptivi/Addresstigator/actions/workflows/build-linux.yml/badge.svg
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Libraries]: https://img.shields.io/badge/Libraries-EA8220?style=for-the-badge&logoColor=white&logo=AzureArtifacts
+[Button Manual]: https://img.shields.io/badge/Docs-blueviolet?style=for-the-badge&logoColor=white&logo=GitBook
