@@ -13,21 +13,16 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.ref }}
-    - name: NuGet Installation
-      uses: nuget/setup-nuget@v1
-      with: 
-        nuget-version: "latest"
-    - name: MSBuild Installation
-      uses: microsoft/setup-msbuild@v1.0.2
-    - name: Dependency Restoration
-      run: nuget restore "Addresstigator.sln"
+    - name: Setup .NET 6.0
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
     - name: Solution Compilation
-      run: msbuild "Addresstigator.sln" /p:Configuration=Release
+      run: dotnet build --configuration Release
     - name: NuGet Preparation
       run: nuget setApiKey ${{ secrets.NUGET_APIKEY }}
     - name: Package Publication
       run: |
         $path = "Addresstigator\bin\Release"
-        $FileName = Get-ChildItem -Path $path -Name -Filter "Addresstigator.*"
-        nuget push "$path\$FileName" -source "nuget.org"
+        nuget push "$path\*.symbols.nupkg" -source "nuget.org"
         
