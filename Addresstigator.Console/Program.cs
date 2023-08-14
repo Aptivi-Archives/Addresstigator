@@ -23,6 +23,8 @@
  * 
  */
 
+using Terminal = System.Console;
+
 namespace Addresstigator.Console
 {
     internal class Program
@@ -33,28 +35,28 @@ namespace Addresstigator.Console
             ClientConfig config = Tools.GetIspConfig(args[0]);
 
             // Show brief information
-            System.Console.WriteLine($"Display name: {config.EmailProvider.DisplayName}");
-            System.Console.WriteLine($"Dominating domain: {config.EmailProvider.DominatingDomain}");
-            System.Console.WriteLine("--------------------");
+            Terminal.WriteLine($"Display name: {config.EmailProvider.DisplayName}");
+            Terminal.WriteLine($"Dominating domain: {config.EmailProvider.DominatingDomain}");
+            Terminal.WriteLine("--------------------");
 
             // Show incoming server information
             foreach (IncomingServer server in config.EmailProvider.IncomingServer)
             {
-                System.Console.WriteLine($"Server hostname: {server.Hostname}");
-                System.Console.WriteLine($"Server port: {server.Port}");
-                System.Console.WriteLine($"Server type: {server.Type}");
-                System.Console.WriteLine($"Server socket type: {server.SocketType}");
-                System.Console.WriteLine($"Server username placeholder: {server.Username}");
+                Terminal.WriteLine($"Server hostname: {server.Hostname}");
+                Terminal.WriteLine($"Server port: {server.Port}");
+                Terminal.WriteLine($"Server type: {server.Type}");
+                Terminal.WriteLine($"Server socket type: {server.SocketType}");
+                Terminal.WriteLine($"Server username placeholder: {server.Username}");
             }
-            System.Console.WriteLine("--------------------");
+            Terminal.WriteLine("--------------------");
 
             // Show outgoing server information
-            System.Console.WriteLine($"Server hostname: {config.EmailProvider.OutgoingServer.Hostname}");
-            System.Console.WriteLine($"Server port: {config.EmailProvider.OutgoingServer.Port}");
-            System.Console.WriteLine($"Server type: {config.EmailProvider.OutgoingServer.Type}");
-            System.Console.WriteLine($"Server socket type: {config.EmailProvider.OutgoingServer.SocketType}");
-            System.Console.WriteLine($"Server username placeholder: {config.EmailProvider.OutgoingServer.Username}");
-            System.Console.WriteLine("--------------------");
+            Terminal.WriteLine($"Server hostname: {config.EmailProvider.OutgoingServer.Hostname}");
+            Terminal.WriteLine($"Server port: {config.EmailProvider.OutgoingServer.Port}");
+            Terminal.WriteLine($"Server type: {config.EmailProvider.OutgoingServer.Type}");
+            Terminal.WriteLine($"Server socket type: {config.EmailProvider.OutgoingServer.SocketType}");
+            Terminal.WriteLine($"Server username placeholder: {config.EmailProvider.OutgoingServer.Username}");
+            Terminal.WriteLine("--------------------");
         }
     }
 }
