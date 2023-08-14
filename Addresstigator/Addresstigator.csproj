@@ -4,14 +4,14 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.1.0.3</Version>
-    <AssemblyVersion>0.1.0.3</AssemblyVersion>
-    <FileVersion>0.1.0.3</FileVersion>
-    <PackageVersion>0.1.0.3</PackageVersion>
+    <Version>0.1.0.4</Version>
+    <AssemblyVersion>0.1.0.4</AssemblyVersion>
+    <FileVersion>0.1.0.4</FileVersion>
+    <PackageVersion>0.1.0.4</PackageVersion>
     <Authors>Aptivi</Authors>
     <Company>Aptivi</Company>
-    <Description>Get address information from Mozilla ISP Database</Description>
-    <Copyright>Copyright (c) 2021 - 2022 Aptivi.</Copyright>
+    <Description>Gets address information from the Mozilla ISP Database</Description>
+    <Copyright>Copyright (c) 2021 - 2023 Aptivi.</Copyright>
     <PackageProjectUrl>https://github.com/Aptivi/Addresstigator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Aptivi/Addresstigator</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
