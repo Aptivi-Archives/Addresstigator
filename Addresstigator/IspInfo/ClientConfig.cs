@@ -23,15 +23,14 @@
  * 
  */
 
-using System;
 using System.Xml.Serialization;
 
 namespace Addresstigator
 {
 
-	/// <summary>
-	/// Client configuration parameters
-	/// </summary>
+    /// <summary>
+    /// Client configuration parameters
+    /// </summary>
     [XmlRoot(ElementName = "clientConfig")]
     public class ClientConfig
     {
