@@ -7,7 +7,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -19,10 +19,6 @@ jobs:
         dotnet-version: '6.0.x'
     - name: Solution Compilation
       run: dotnet build --configuration Release
-    - name: NuGet Preparation
-      run: nuget setApiKey ${{ secrets.NUGET_APIKEY }}
     - name: Package Publication
-      run: |
-        $path = "Addresstigator\bin\Release"
-        nuget push "$path\*.nupkg" -source "nuget.org"
+      run: dotnet nuget push "Addresstigator/bin/Release/*.symbols.nupkg" --api-key ${{ secrets.NUGET_APIKEY }} --source "nuget.org"
         
