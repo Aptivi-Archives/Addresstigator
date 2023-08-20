@@ -12,19 +12,16 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Addresstigator.ClientConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.ClientConfig.html",
-          "hash": "WE4Br8WfWzq1kFrQWK+Kw0/d2CChIdjqKZ2dzrbqhas="
+          "relative_path": "api/Addresstigator.ClientConfig.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -32,11 +29,9 @@
       "source_relative_path": "api/Addresstigator.Documentation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.Documentation.html",
-          "hash": "Xp7Qf92RS0E9BkvoQGkSV+mSVNcSLQk17w85XIuW60M="
+          "relative_path": "api/Addresstigator.Documentation.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -44,11 +39,9 @@
       "source_relative_path": "api/Addresstigator.EmailProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.EmailProvider.html",
-          "hash": "Wle6O5lgd3KRkvCiKK4u3LZhbdtkT/g/sa74Wh7HcNs="
+          "relative_path": "api/Addresstigator.EmailProvider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -56,11 +49,9 @@
       "source_relative_path": "api/Addresstigator.Enable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.Enable.html",
-          "hash": "m6bUhOxopbBTebfS4XlZQ6qyktPePyphgmQEnFhlaNY="
+          "relative_path": "api/Addresstigator.Enable.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,11 +59,9 @@
       "source_relative_path": "api/Addresstigator.IncomingServer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.IncomingServer.html",
-          "hash": "/6XRwkSx3I0r9GXPCZhaAzAEVrPkB98c3lNkVbgUsz4="
+          "relative_path": "api/Addresstigator.IncomingServer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -80,11 +69,9 @@
       "source_relative_path": "api/Addresstigator.LoginButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.LoginButton.html",
-          "hash": "9s9wux5Hs+mY7kXbZF5F7MbQrYavPJd8ZaBxuttWT/8="
+          "relative_path": "api/Addresstigator.LoginButton.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -92,11 +79,9 @@
       "source_relative_path": "api/Addresstigator.LoginPage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.LoginPage.html",
-          "hash": "wxG5vzzl5wz473aDxnXLrFXATEtULoBRjqDcYbWyIIM="
+          "relative_path": "api/Addresstigator.LoginPage.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -104,11 +89,9 @@
       "source_relative_path": "api/Addresstigator.LoginPageInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.LoginPageInfo.html",
-          "hash": "3CQNf9hzuqzCzZvOE1TyxCjispEqfck7b8qs4uWqEuM="
+          "relative_path": "api/Addresstigator.LoginPageInfo.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -116,11 +99,9 @@
       "source_relative_path": "api/Addresstigator.OAuth2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.OAuth2.html",
-          "hash": "7yJ2b5hW4XFZN1M4KzyDavMjT3WKnoOXXmenXBViNQw="
+          "relative_path": "api/Addresstigator.OAuth2.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -128,11 +109,9 @@
       "source_relative_path": "api/Addresstigator.OutgoingServer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.OutgoingServer.html",
-          "hash": "PShoy1xiNwRikplGAwxC8LjIc1XqKSqMV52TLeR7kQ0="
+          "relative_path": "api/Addresstigator.OutgoingServer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -140,11 +119,9 @@
       "source_relative_path": "api/Addresstigator.PasswordField.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.PasswordField.html",
-          "hash": "I1+eHkvYCPCorbiDqlXMj/VypY7y8Fre4Ej6VUsIlbc="
+          "relative_path": "api/Addresstigator.PasswordField.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -152,11 +129,9 @@
       "source_relative_path": "api/Addresstigator.Pop3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.Pop3.html",
-          "hash": "cxt1Qco+ayvo3scrWlw8GibYVWILlwn0aFNAOdK2K+U="
+          "relative_path": "api/Addresstigator.Pop3.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -164,11 +139,9 @@
       "source_relative_path": "api/Addresstigator.Tools.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.Tools.html",
-          "hash": "mezZQrkk1GGnoALyhjZXv5qe3ewOrqpptcri8Ce3UkE="
+          "relative_path": "api/Addresstigator.Tools.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -176,11 +149,9 @@
       "source_relative_path": "api/Addresstigator.UsernameField.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.UsernameField.html",
-          "hash": "qbwdcc4MfsRiW+0H5NkXvjh0TLZQpI96/ARr2grZBWk="
+          "relative_path": "api/Addresstigator.UsernameField.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -188,11 +159,9 @@
       "source_relative_path": "api/Addresstigator.WebMail.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.WebMail.html",
-          "hash": "ww3dYdtgG6c9fnC8v4qpHG6mFu0RBS2oKqwPMlgsDfM="
+          "relative_path": "api/Addresstigator.WebMail.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -200,11 +169,9 @@
       "source_relative_path": "api/Addresstigator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Addresstigator.html",
-          "hash": "wLaQB9ZTBSTh6J7CYuk7GpGqSv1PHpxeFjdyTSczU8w="
+          "relative_path": "api/Addresstigator.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -212,11 +179,9 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "htfhUDv5AtifV2n+rlM/P6Ng6OQCBtTZyJaFt/CavpE="
+          "relative_path": "api/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -224,11 +189,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "AymrTrmD/8wYeINN9O8inxekoQVQdlvfByPMTTJAl8o="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -236,55 +199,10 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "ZgvAil1ZCqbMX94BxG09wOn1Ly/KFgtW+dVyGU405sA="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
-    }
-  ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
     }
   ],
   "version_info": {},

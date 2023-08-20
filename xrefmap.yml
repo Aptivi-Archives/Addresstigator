@@ -619,11 +619,14 @@ references:
   fullName: Addresstigator.Tools
   nameWithType: Tools
 - uid: Addresstigator.Tools.GetIspConfig(System.String,System.Boolean)
-  name: GetIspConfig(String, Boolean)
+  name: GetIspConfig(string, bool)
   href: api/Addresstigator.Tools.html#Addresstigator_Tools_GetIspConfig_System_String_System_Boolean_
   commentId: M:Addresstigator.Tools.GetIspConfig(System.String,System.Boolean)
-  fullName: Addresstigator.Tools.GetIspConfig(System.String, System.Boolean)
-  nameWithType: Tools.GetIspConfig(String, Boolean)
+  name.vb: GetIspConfig(String, Boolean)
+  fullName: Addresstigator.Tools.GetIspConfig(string, bool)
+  fullName.vb: Addresstigator.Tools.GetIspConfig(String, Boolean)
+  nameWithType: Tools.GetIspConfig(string, bool)
+  nameWithType.vb: Tools.GetIspConfig(String, Boolean)
 - uid: Addresstigator.Tools.GetIspConfig*
   name: GetIspConfig
   href: api/Addresstigator.Tools.html#Addresstigator_Tools_GetIspConfig_
