@@ -5,10 +5,10 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
-    <Version>0.1.0.4</Version>
-    <AssemblyVersion>0.1.0.4</AssemblyVersion>
-    <FileVersion>0.1.0.4</FileVersion>
-    <PackageVersion>0.1.0.4</PackageVersion>
+    <Version>0.1.0.5</Version>
+    <AssemblyVersion>0.1.0.5</AssemblyVersion>
+    <FileVersion>0.1.0.5</FileVersion>
+    <PackageVersion>0.1.0.5</PackageVersion>
     <Authors>Aptivi</Authors>
     <Company>Aptivi</Company>
     <Description>Gets address information from the Mozilla ISP Database</Description>
@@ -21,6 +21,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-Addresstigator-512.png</PackageIcon>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\aptivi_snk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
